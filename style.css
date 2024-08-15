@@ -101,8 +101,7 @@ header p {
 @media (max-width: 275px) {
 
     body {
-        top: 100vh;
-        height: auto;
+        overflow: scroll;
         padding: 20px 10px;
         height: 150vh;
     }
