@@ -101,10 +101,11 @@ header p {
 @media (max-width: 767px) {
 
     body {
-        overflow: scroll;
+        /* overflow: scroll; */
         padding: 20px 10px;
         height: 100vh;
         margin-top: 0;
+        justify-content: center;
     }
 
     .container {
