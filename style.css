@@ -104,7 +104,7 @@ header p {
         /* overflow: scroll; */
         padding: 20px 10px;
         height: 100vh;
-        margin-top: 0;
+        margin-top: 20vh;
         justify-content: center;
     }
 
