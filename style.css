@@ -26,8 +26,7 @@ body {
 .question {
     margin: 15px 0;
 }
-
-button {
+#submitBtn{
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -37,7 +36,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+#submitBtn:hover {
     background-color: #0056b3;
 }
 
@@ -45,4 +44,94 @@ button:hover {
     font-size: 20px;
     color: #333;
     margin-top: 20px;
+}
+
+
+
+
+/* Reset some basic styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 1em 0;
+}
+
+.start-button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 275px) {
+
+    body {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+    .question {
+        margin: 10px 0;
+    }
+
+
+
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .start-button {
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+    }
 }
