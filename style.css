@@ -98,7 +98,7 @@ header p {
     background-color: #0056b3;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     body {
         overflow: scroll;
