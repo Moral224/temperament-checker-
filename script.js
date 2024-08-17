@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "How do you react when something doesn't go your way?",
+        question: "1. How do you react when something doesn't go your way?",
         answers: {
             choleric: "I get frustrated and try to take control of the situation.",
             phlegmatic: "I remain calm and try to avoid conflict.",
@@ -9,7 +9,7 @@ const questions = [
         }
     },
     {
-        question: "How do you handle group projects?",
+        question: "2. How do you handle group projects?",
         answers: {
             choleric: "I naturally take the lead and direct others.",
             phlegmatic: "I go along with the group's decisions.",
@@ -18,7 +18,7 @@ const questions = [
         }
     },
     {
-        question: "What is your approach to making decisions?",
+        question: "3. What is your approach to making decisions?",
         answers: {
             choleric: "I make decisions quickly and confidently.",
             phlegmatic: "I prefer to think it over and avoid hasty decisions.",
@@ -27,7 +27,7 @@ const questions = [
         }
     },
     {
-        question: "How do you deal with criticism?",
+        question: "4. How do you deal with criticism?",
         answers: {
             choleric: "I defend myself and try to prove I'm right.",
             phlegmatic: "I listen quietly and try to avoid conflict.",
