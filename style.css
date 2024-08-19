@@ -119,7 +119,8 @@ header p {
 
     .container {
         width: 100%;
-        padding: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
         margin-top: 80vh;
     }
 
